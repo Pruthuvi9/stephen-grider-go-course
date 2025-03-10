@@ -3,9 +3,13 @@ package main
 func main() {
 	cards := newDeck()
 
-	hand, remainingDeck := deal(cards, 3)
+	// hand, remainingDeck := deal(cards, 3)
 
-	hand.print()
+	// hand.print()
 
-	remainingDeck.print()
+	// remainingDeck.print()
+
+	// fmt.Println(cards.toString())
+
+	cards.saveToFile("my_cards")
 }
